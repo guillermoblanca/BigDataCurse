@@ -21,8 +21,8 @@ $ `pip install -r requirements.txt`
 
 ## Jupyter
 
-Notebooks: En la carpeta notebooks se recompilan aquellos archivos para seguir las lecciones del curso con los ejercicios resueltos. 
-Exercice: En esta carpeta se alojan aquellos recursos que serán evaluados por los profesores
+* Notebooks: En la carpeta notebooks se recompilan aquellos archivos para seguir las lecciones del curso con los ejercicios resueltos. 
+* Exercice: En esta carpeta se alojan aquellos recursos que serán evaluados por los profesores
 
 --------
 
