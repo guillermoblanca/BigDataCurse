@@ -1,22 +1,17 @@
-# Python intro for Data Science 
+# Introducción al Big Data 
 
-This is a research of possible implementations of Machine Learning algorithms for investigation of different ideas.
+En este repositorio se recopilan todos los notebooks y ejercicios resueltos del curso de Big Data
 
-## List of content
-
-1. Creación de entorno (Conda)
-2. Notebook (Jupyter)
-
-### Conda
+## Conda
 
 Para el uso de Python vamos a usar Conda para generar un entorno aislado con las librerías específicas necesarias para crear los diferentes proyectos. 
-
-Conda es un gestor de entornos que permite aislar las librerías que necesitamos para python
-
+Conda es un gestor de entornos que permite aislar las librerías que necesitamos para python en un único entorno
 
 **Comandos para iniciar el entorno**
 
-$ `conda create -n <environment_name> python=<python_version>`
+Para iniciar las librerías es necesario tener instalado python previamente y que este alojada como variable global o usar conda. En caso den no querer usar conda se puede seguir el último paso desde la línea de comandos.
+
+$ `conda create -n <environment_name>`
 
 $ `conda activate <environment_name>`
 
@@ -26,7 +21,8 @@ $ `pip install -r requirements.txt`
 
 ## Jupyter
 
-Notebooks: Permi9te archivos para poder testear ideas. La extensión del archivo es **.ipynb**
+Notebooks: En la carpeta notebooks se recompilan aquellos archivos para seguir las lecciones del curso con los ejercicios resueltos. 
+Exercice: En esta carpeta se alojan aquellos recursos que serán evaluados por los profesores
 
 --------
 
@@ -34,4 +30,5 @@ Librerías a usar:
 
 - numpy
 - pandas
+-seaborn
 - scikit learn
